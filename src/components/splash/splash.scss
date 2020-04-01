@@ -11,6 +11,22 @@
   border-radius: 5px;
 }
 
+.btn__reset {
+  padding: 8px;
+  margin: 50px auto;
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-size: var(--font-size-medium);
+  transition: transform .5s ease-in, box-shadow .5s ease;
+}
+
+.btn__reset:hover {
+  cursor: pointer;
+  background-color: lightblue;
+  box-shadow: 7px 7px black;
+  transform: scale(1.1);
+}
+
 .title {
   color: #FFF;
 }
